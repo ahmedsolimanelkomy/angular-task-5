@@ -1,0 +1,10 @@
+<div class="mb-3 w-50 mx-auto">
+    <label for="" class="form-label">Categories</label>
+    <select class="form-select form-select-lg" [(ngModel)]="selectedCatId">
+        <option *ngFor="let cat of categories" value="{{cat.id}}">{{cat.name}}</option>
+    </select>
+    <h3>{{selectedCatId}}</h3>
+</div>
+<!-- <app-allproducts [RCatId] = "selectedCatId" (pricechanged) = "onpricechanged($event)"></app-allproducts> -->
+<app-products></app-products>
+<h1>total order price is : {{totalOrderPrice}}</h1>

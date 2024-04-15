@@ -1,0 +1,77 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Lenvo thinpad X230",
+      "price": 100,
+      "quantity": 10,
+      "catId": 1,
+      "imgUrl": "https://picsum.photos/200"
+    },
+    {
+      "id": "2",
+      "name": "Dell",
+      "price": 200,
+      "quantity": 20,
+      "catId": 1,
+      "imgUrl": "https://picsum.photos/200"
+    },
+    {
+      "id": "3",
+      "name": "Lenovo Tab",
+      "price": 100,
+      "quantity": 10,
+      "catId": 2,
+      "imgUrl": "https://picsum.photos/200"
+    },
+    {
+      "id": "4",
+      "name": "Samsung Tab",
+      "price": 100,
+      "quantity": 10,
+      "catId": 2,
+      "imgUrl": "https://picsum.photos/200"
+    },
+    {
+      "id": "5",
+      "name": "new product",
+      "price": 5000,
+      "quantity": 20,
+      "catId": 1,
+      "imgUrl": "https://picsum.photos/200"
+    },
+    {
+      "id": "6",
+      "name": "new product 2",
+      "price": 5000,
+      "quantity": 20,
+      "catId": 1,
+      "imgUrl": "https://picsum.photos/200"
+    },
+    {
+      "id": "a923",
+      "name": "new product 3",
+      "price": 5000,
+      "quantity": 5,
+      "imgUrl": "C:\\fakepath\\Demo.txt",
+      "catId": "1"
+    },
+    {
+      "id": "93a0"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Laptops"
+    },
+    {
+      "id": "2",
+      "name": "Tablets"
+    },
+    {
+      "id": "3",
+      "name": "Mobiles"
+    }
+  ]
+}
